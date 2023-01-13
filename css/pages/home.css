@@ -38,9 +38,27 @@
 }
 .main-description {
     font-size: 18px;
-
 }
+
 /* main */
+
+.section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-size: 16px;
+}
+.section-description > a {
+    text-decoration: none;
+    color: red;
+}
+.section-description > a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
 
 /* footer */
 .socials {
